@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-center {
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+        .text-start {
+            text-align: start;
+            text-decoration: overline;
+        }
+
+        .text-end {
+            text-align: end;
+            text-decoration: line-through;
+        }
+
+        .btn {
+            height: 50px;
+            width: 100px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            padding-inline: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-decoration: none;
+        }
+
+
+        .btn-primary {
+            background-color: rgb(32, 59, 239);
+            color: white;
+        }
+
+        .btn-danger {
+            background-color: rgb(0, 140, 255);
+            color: white;
+        }
+
+        .btn-warning {
+            background-color: rgb(251, 186, 21);
+            color: rgb(0, 0, 0);
+        }
+
+        .btn-success {
+            background-color: rgb(75, 145, 22);
+            color: rgb(255, 255, 255);
+        }
+        .btn-secondary{
+        background-color: rgb(100, 97, 97);
+        color: white;
+        }
+
+        .p1 {
+            font-family: "Sofia", sans-serif;
+        }
+
+        .p2 {
+            font-family: "Audiowide", sans-serif;
+        }
+
+        .p3 {
+            font-family: "Trirong", serif
+        }
+
+        .m-1 {
+            margin: 10px;
+        }
+    </style>
+</head>
+<!-- https://www.w3schools.com/css/css_icons.asp -->
+<!-- https://ionic.io/ionicons -->
+<body>
+    <div style="display: flex; justify-content:start; margin:30px;">
+
+        <div>
+            <a href="#" class="pd-1 m-1 btn btn-danger">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+        </div>
+        <div>
+            <a href="#" class="pd-1 m-1 btn btn-warning"><ion-icon name="logo-amazon"></ion-icon></a>
+        </div>
+        <div>
+            <a href="#" class="pd-1 m-1 btn btn-secondary"> <ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <div>
+            <a href="#" class="pd-1 m-1 btn btn-primary"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+
+    </div>
+    <!-- use these tags when to use icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- end -->
+</body>
+
+</html>
