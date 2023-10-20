@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .div1{
-    
-    height: 100px;
-    width: 100px;
-    margin-bottom: -40px;
-    background-image: url('/lesson-2/ls1.png') ;
-    background-size: cover;
-    z-index: 3;
-    position: relative;
-    border: 5px solid  rgb(0, 98, 255);
-    border-radius: 50%;
-    }
-    .div2{
-        background-color: rgb(0, 98, 255);
-        height: 100px;
-        width: 400px;
-        z-index: 0;
-        position: relative;
+        .div1 {
+
+            height: 100px;
+            width: 100px;
+            margin-bottom: -40px;
+            background-image: url('/lesson-2/ls1.png');
+            background-size: cover;
+            z-index: 3;
+            position: relative;
+            border: 5px solid rgb(0, 98, 255);
+            border-radius: 50%;
+        }
+
+        .div2 {
+            background-color: rgb(0, 98, 255);
+            height: 100px;
+            width: 400px;
+            z-index: 0;
+            position: relative;
+        }
+
+        .dim {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(127, 255, 212);
+            opacity: 0.5;
+            border-radius: 50%;
+        }
+
+        .dim:hover {
+            opacity: 0 !important;
+        }
+        .div1:hover{
+            height: 120px;
+            width: 120px;
+            animation: 1;
         }
     </style>
 </head>
-<body style="padding-top: 200px;">
-    <div class="div1">
-    
+
+<body style="padding-top: 200px;  width: 400px;">
+    <div class="div1" style="float: left;">
+        <div class="dim"></div>
     </div>
-    
+
     <div class="div2">
-    
+
     </div>
 </body>
+
 </html>
